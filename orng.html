@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Beauty Landing Page</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+</style>
+</head>
+
+<body class="bg-white text-black">
+
+<!-- TOPBAR + NAVBAR -->
+<div id="headerWrap"
+class="fixed top-5 left-1/2 -translate-x-1/2 w-[85%] z-50 transition-all duration-500">
+
+    <!-- TOP BAR -->
+    <div class="bg-[#e6bebd] text-[11px] text-white py-2 px-10 flex justify-between">
+        <span>ONLINE ONLY - GET FREE SAMPLE TODAY</span>
+        <span>LOGIN / CREATE ACCOUNT</span>
+    </div>
+
+    <!-- NAVBAR -->
+    <header class="bg-white border border-gray-200 border-t-0 px-10 py-5 flex items-center justify-between shadow-md">
+
+        <div class="text-4xl font-bold leading-none">
+            BEAUTY.
+            <div class="text-[10px] tracking-[5px] mt-1 font-normal">
+                SKINCARE
+            </div>
+        </div>
+
+        <nav class="flex gap-10 text-[14px] font-medium">
+            <a href="about.html" class="border-b border-black pb-1">About Us</a>
+            <a href="bestseler.html">Best Seller</a>
+            <a href="skincare.html">Skincare</a>
+            <a href="makeup.html">Make Up</a>
+        </nav>
+
+        <!-- ICONS DENGAN LINK -->
+<div class="flex items-center gap-6">
+
+    <!-- User Icon -->
+    <a href="orng.html">
+        <svg xmlns="http://www.w3.org/2000/svg"
+            class="w-5 h-5 cursor-pointer hover:text-[#e7bcbc] transition"
+            fill="none" viewBox="0 0 24 24"
+            stroke="currentColor" stroke-width="1.8">
+            <path stroke-linecap="round" stroke-linejoin="round"
+                d="M15.75 6.75a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.5 20.25a7.5 7.5 0 1115 0" />
+        </svg>
+    </a>
+
+    <!-- Bag Icon -->
+    <a href="shopnow.html">
+        <svg xmlns="http://www.w3.org/2000/svg"
+            class="w-5 h-5 cursor-pointer hover:text-[#e7bcbc] transition"
+            fill="none" viewBox="0 0 24 24"
+            stroke="currentColor" stroke-width="1.8">
+            <path stroke-linecap="round" stroke-linejoin="round"
+                d="M16.5 6V4.875a4.5 4.5 0 10-9 0V6M3.75 6h16.5l-1.125 12.75H4.875L3.75 6z" />
+        </svg>
+    </a>
+
+    <!-- Button -->
+    <a href="index.html"
+    class="bg-[#e7bcbc] text-white px-6 py-2 rounded-full text-sm">
+        Return Home
+    </a>
+
+</div>
+
+    </header>
+</div>
+
+<!-- SPACE -->
+<div class="h-44"></div>
+
+<!-- HERO -->
+<section class="relative overflow-hidden bg-[#f0dedd]">
+
+    <!-- BACKGROUND IMAGE -->
+    <div class="absolute inset-0">
+        <img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=1600"
+        class="w-full h-full object-cover opacity-20">
+        <div class="absolute inset-0 bg-[#f0dedd]/70"></div>
+    </div>
+
+    <!-- CONTENT -->
+    <div class="relative max-w-[1400px] mx-auto grid grid-cols-3 items-end min-h-[620px] px-10">
+
+        <!-- LEFT -->
+        <div></div>
+
+        <!-- CENTER -->
+        <div class="text-center pb-20">
+            <p class="text-xs tracking-[5px] text-gray-600 mb-5">
+                2026 SS
+            </p>
+
+            <h1 class="text-6xl font-bold leading-tight mb-8">
+                Blog
+            </h1>
+
+            <a href="shopnow.html"
+            class="bg-[#e7bcbc] text-white px-10 py-4 rounded-full text-sm tracking-widest inline-block">
+                SHOP NOW
+            </a>
+        </div>
+
+    </div>
+</section>
+
+</body>
+
+<!-- BLOG -->
+<section class="py-16 bg-white">
+<div class="max-w-[1300px] mx-auto px-10 grid grid-cols-3 gap-8">
+
+<div class="border">
+<img src="asset/kiri.jpg" class="h-72 w-full object-cover">
+<div class="p-6">
+<h3 class="font-semibold text-lg">MAKEUP GUIDES</h3>
+</div>
+</div>
+
+<div class="border">
+<img src="asset/tngh.jpg" class="h-72 w-full object-cover">
+<div class="p-6">
+<h3 class="font-semibold text-lg">NEW COLLECTIONS</h3>
+</div>
+</div>
+
+<div class="border">
+<img src="asset/knan.jpg" class="h-72 w-full object-cover">
+<div class="p-6">
+<h3 class="font-semibold text-lg">BEAUTY TRENDS</h3>
+</div>
+</div>
+
+</div>
+</section>
+
+<!-- CONTACT SECTION -->
+<section class="bg-[#fff7f7] py-20">
+  <div class="max-w-[1300px] mx-auto px-6">
+
+    <div class="grid md:grid-cols-2 gap-14 items-start">
+
+      <!-- LEFT -->
+      <div>
+        <div class="mb-10">
+          <h1 class="text-5xl font-bold text-black mb-3">Get in touch</h1>
+          <p class="text-gray-500 text-sm">Contact us for any question</p>
+        </div>
+
+        <form class="space-y-6">
+
+          <div class="grid grid-cols-2 gap-5">
+            <input type="text" placeholder="Your Name"
+              class="border border-gray-200 rounded-xl px-5 py-4 outline-none focus:border-pink-300">
+
+            <input type="email" placeholder="Your Email"
+              class="border border-gray-200 rounded-xl px-5 py-4 outline-none focus:border-pink-300">
+
+            <input type="text" placeholder="Subject"
+              class="border border-gray-200 rounded-xl px-5 py-4 outline-none focus:border-pink-300">
+
+            <input type="text" placeholder="Donate"
+              class="border border-gray-200 rounded-xl px-5 py-4 outline-none focus:border-pink-300">
+          </div>
+
+          <textarea placeholder="Message" rows="6"
+            class="w-full border border-gray-200 rounded-xl px-5 py-4 outline-none focus:border-pink-300"></textarea>
+
+          <button
+            class="bg-[#e7bcbc] hover:bg-[#dca8a8] text-white px-8 py-4 rounded-full text-sm tracking-wide transition">
+            Send Message
+          </button>
+
+        </form>
+      </div>
+
+      <!-- RIGHT -->
+      <div>
+
+        <!-- INFO BOX -->
+        <div class="grid sm:grid-cols-3 gap-5 mb-8">
+
+          <div class="bg-white shadow-md rounded-2xl p-6 text-center">
+            <div class="w-14 h-14 mx-auto rounded-full bg-[#f8dede] flex items-center justify-center text-xl mb-4">
+              ⌖
+            </div>
+            <h4 class="font-semibold mb-1">Address</h4>
+            <p class="text-sm text-gray-500">Indonesia</p>
+          </div>
+
+          <div class="bg-white shadow-md rounded-2xl p-6 text-center">
+            <div class="w-14 h-14 mx-auto rounded-full bg-[#f8dede] flex items-center justify-center text-xl mb-4">
+              ✉
+            </div>
+            <h4 class="font-semibold mb-1">Mail Us</h4>
+            <p class="text-sm text-gray-500">info@email.com</p>
+          </div>
+
+          <div class="bg-white shadow-md rounded-2xl p-6 text-center">
+            <div class="w-14 h-14 mx-auto rounded-full bg-[#f8dede] flex items-center justify-center text-xl mb-4">
+              ✆
+            </div>
+            <h4 class="font-semibold mb-1">Telephone</h4>
+            <p class="text-sm text-gray-500">+62 812 3456</p>
+          </div>
+
+        </div>
+
+        <!-- MAP -->
+        <div class="rounded-2xl overflow-hidden shadow-md">
+          <iframe
+            src="https://www.google.com/maps?q=HHJ5+PR2+Duren+Tengaran+Semarang&output=embed"
+            width="100%"
+            height="400"
+            style="border:0;"
+            loading="lazy">
+          </iframe>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-[#f0dedd] py-10">
+<div class="max-w-[1300px] mx-auto px-10 flex justify-between items-center">
+
+<div class="flex gap-14 text-sm">
+
+<div class="flex items-start gap-3">
+<i class="fa-solid fa-location-dot mt-1 text-black"></i>
+<div>
+<p class="font-semibold">LOCATION</p>
+<span class="text-gray-600">Indonesia Store</span>
+</div>
+</div>
+
+<div class="flex items-start gap-3">
+<i class="fa-solid fa-envelope mt-1 text-black"></i>
+<div>
+<p class="font-semibold">EMAIL</p>
+<span class="text-gray-600">beauty@email.com</span>
+</div>
+</div>
+
+<div class="flex items-start gap-3">
+<i class="fa-solid fa-phone mt-1 text-black"></i>
+<div>
+<p class="font-semibold">CALL</p>
+<span class="text-gray-600">08123456789</span>
+</div>
+</div>
+
+</div>
+
+<div class="flex gap-4 text-xl">
+<i class="fab fa-facebook-f"></i>
+<i class="fab fa-instagram"></i>
+<i class="fab fa-twitter"></i>
+<i class="fab fa-pinterest-p"></i>
+</div>
+
+</div>
+</footer>
+
+<script>
+window.addEventListener("scroll", function () {
+
+const wrap = document.getElementById("headerWrap");
+
+if(window.scrollY > 80){
+wrap.classList.remove("top-5","left-1/2","-translate-x-1/2","w-[85%]");
+wrap.classList.add("top-0","left-0","translate-x-0","w-full");
+}else{
+wrap.classList.add("top-5","left-1/2","-translate-x-1/2","w-[85%]");
+wrap.classList.remove("top-0","left-0","translate-x-0","w-full");
+}
+
+});
+</script>
+
+</body>
+</html>
+

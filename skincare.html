@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Beauty Landing Page</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* HEADER ANIMATION */
+#headerWrap{
+    transition: all .4s ease;
+}
+
+#headerWrap.scrolled{
+    top: 0;
+    left: 0;
+    width: 100%;
+    transform: none;
+}
+
+#headerWrap.scrolled .topbar{
+    border-radius: 0;
+}
+
+#headerWrap.scrolled .navbar{
+    border-radius: 0;
+}
+</style>
+</head>
+
+
+<body class="bg-white text-black">
+
+<!-- TOPBAR + NAVBAR -->
+<div id="headerWrap"
+class="fixed top-5 left-1/2 -translate-x-1/2 w-[85%] z-50 transition-all duration-500">
+
+    <!-- TOP BAR -->
+    <div class="bg-[#e6bebd] text-[11px] text-white py-2 px-10 flex justify-between">
+        <span>ONLINE ONLY - GET FREE SAMPLE TODAY</span>
+        <span>LOGIN / CREATE ACCOUNT</span>
+    </div>
+
+    <!-- NAVBAR -->
+    <header class="bg-white border border-gray-200 border-t-0 px-10 py-5 flex items-center justify-between shadow-md">
+
+        <div class="text-4xl font-bold leading-none">
+            BEAUTY.
+            <div class="text-[10px] tracking-[5px] mt-1 font-normal">
+                SKINCARE
+            </div>
+        </div>
+
+        <nav class="flex gap-10 text-[14px] font-medium">
+            <a href="about.html" class="border-b border-black pb-1">About Us</a>
+            <a href="bestseler.html">Best Seller</a>
+            <a href="skincare.html">Skincare</a>
+            <a href="makeup.html">Make Up</a>
+        </nav>
+
+        <!-- ICONS DENGAN LINK -->
+<div class="flex items-center gap-6">
+
+    <!-- User Icon -->
+    <a href="orng.html">
+        <svg xmlns="http://www.w3.org/2000/svg"
+            class="w-5 h-5 cursor-pointer hover:text-[#e7bcbc] transition"
+            fill="none" viewBox="0 0 24 24"
+            stroke="currentColor" stroke-width="1.8">
+            <path stroke-linecap="round" stroke-linejoin="round"
+                d="M15.75 6.75a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.5 20.25a7.5 7.5 0 1115 0" />
+        </svg>
+    </a>
+
+    <!-- Bag Icon -->
+    <a href="shopnow.html">
+        <svg xmlns="http://www.w3.org/2000/svg"
+            class="w-5 h-5 cursor-pointer hover:text-[#e7bcbc] transition"
+            fill="none" viewBox="0 0 24 24"
+            stroke="currentColor" stroke-width="1.8">
+            <path stroke-linecap="round" stroke-linejoin="round"
+                d="M16.5 6V4.875a4.5 4.5 0 10-9 0V6M3.75 6h16.5l-1.125 12.75H4.875L3.75 6z" />
+        </svg>
+    </a>
+
+    <!-- Button -->
+    <a href="index.html"
+    class="bg-[#e7bcbc] text-white px-6 py-2 rounded-full text-sm">
+        Return Home
+    </a>
+
+</div>
+
+    </header>
+</div>
+
+<!-- SPACE -->
+<div class="h-44"></div>
+
+<!-- HERO -->
+<section class="relative overflow-hidden bg-[#f0dedd]">
+
+    <!-- BACKGROUND IMAGE -->
+    <div class="absolute inset-0">
+        <img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=1600"
+        class="w-full h-full object-cover opacity-20">
+        <div class="absolute inset-0 bg-[#f0dedd]/70"></div>
+    </div>
+
+    <!-- CONTENT -->
+    <div class="relative max-w-[1400px] mx-auto grid grid-cols-3 items-end min-h-[620px] px-10">
+
+        <!-- LEFT -->
+        <div class="flex justify-center items-end gap-6">
+        </div>
+
+        <!-- CENTER -->
+        <div class="text-center pb-20">
+            <p class="text-xs tracking-[5px] text-gray-600 mb-5">
+                2026 SS
+            </p>
+
+            <h1 class="text-6xl font-bold leading-tight mb-8">
+               Skincare
+            </h1>
+
+            <a href="shopnow.html" class="bg-[#e7bcbc] text-white px-10 py-4 rounded-full text-sm tracking-widest inline-block">
+            SHOP NOW
+           </a>
+        </div>
+
+</section>
+</body>
+
+<!-- TOP BANNER -->
+<section class="grid grid-cols-1 md:grid-cols-3 mt-10 mb-10">
+
+<!-- LEFT -->
+<div class="relative h-[250px] bg-gradient-to-r from-gray-100 to-white overflow-hidden">
+<div class="absolute left-8 top-10 z-10 w-[55%]">
+<p class="text-[11px] uppercase text-red-400 tracking-widest">Since 12</p>
+<h2 class="text-3xl font-semibold leading-tight mt-2">Health <br>& Beauty</h2>
+<a href="shopnow.html" class="mt-6 inline-block bg-pink-700 text-white px-6 py-2 rounded-full text-sm">
+Shop Now →
+</a>
+</div>
+
+<img src="asset/bg2.png"
+class="absolute right-4 bottom-0 h-[220px] object-contain">
+</div>
+
+<!-- CENTER -->
+<div class="relative h-[250px] bg-gradient-to-r from-pink-100 to-pink-200 overflow-hidden">
+<div class="absolute left-8 top-10 z-10 w-[55%]">
+<p class="text-sm font-semibold">10% OFF</p>
+<h2 class="text-3xl font-semibold mt-1">Body Butter</h2>
+<a href="shopnow.html" class="mt-6 inline-block bg-pink-700 text-white px-6 py-2 rounded-full text-sm">
+Shop Now →
+</a>
+</div>
+
+<img src="asset/bg3.png"
+class="absolute right-4 bottom-0 h-[220px] object-contain">
+</div>
+
+<!-- RIGHT -->
+<div class="relative h-[250px] bg-gradient-to-r from-gray-50 to-white overflow-hidden">
+<div class="absolute left-8 top-10 z-10 w-[55%]">
+<p class="text-[11px] uppercase text-gray-400">Up To 30% Off</p>
+<h2 class="text-3xl font-semibold leading-tight mt-2">Natural Beauty <br>Collection</h2>
+<a href="shopnow.html" class="mt-6 inline-block bg-pink-700 text-white px-6 py-2 rounded-full text-sm">
+Shop Now →
+</a>
+</div>
+
+<img src="asset/bg1.png"
+class="absolute right-0 bottom-0 h-full object-cover w-[42%]">
+</div>
+
+</section>
+
+<!-- PRODUCT SECTION -->
+<section class="py-14 px-6 md:px-14 bg-white mb-10">
+
+<div class="mt-8 flex justify-center gap-4 flex-wrap">
+
+<a href="makeup.html" 
+class="bg-pink-700 text-white px-6 py-2 rounded-full text-sm">
+Skincare
+</a>
+
+<a href="bestseler.html" 
+class="px-6 py-2 text-sm">
+Bestseller
+</a>
+
+<a href="makeup.html" 
+class="px-6 py-2 text-sm">
+Make Up
+</a>
+
+</div>
+
+<div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+
+<div class="text-center">
+<div class="bg-gray-50 rounded-xl p-8 h-[260px] flex items-center justify-center">
+<img src="asset/skin1.jpg"
+class="h-full object-contain">
+</div>
+<p class="text-xs text-gray-500 mt-4">Organic High Curcumin Turmeric</p>
+<p class="text-xs text-gray-500">Powder</p>
+<p class="font-bold mt-2">$39.9</p>
+</div>
+
+<div class="text-center">
+<div class="bg-gray-50 rounded-xl p-8 h-[260px] flex items-center justify-center">
+<img src="asset/skin4.jpg"
+class="h-full object-contain">
+</div>
+<p class="text-xs text-gray-500 mt-4">Organic High Curcumin Turmeric</p>
+<p class="text-xs text-gray-500">Powder</p>
+<p class="font-bold mt-2">$39.9</p>
+</div>
+
+<div class="text-center">
+<div class="bg-gray-50 rounded-xl p-8 h-[260px] flex items-center justify-center">
+<img src="asset/skin2.jpg"
+class="h-full object-contain">
+</div>
+<p class="text-xs text-gray-500 mt-4">Organic High Curcumin Turmeric</p>
+<p class="text-xs text-gray-500">Powder</p>
+<p class="font-bold mt-2">$39.9</p>
+</div>
+
+<div class="text-center">
+<div class="bg-gray-50 rounded-xl p-8 h-[260px] flex items-center justify-center">
+<img src="asset/skin3.jpg"
+class="h-full object-contain">
+</div>
+<p class="text-xs text-gray-500 mt-4">Organic High Curcumin Turmeric</p>
+<p class="text-xs text-gray-500">Powder</p>
+<p class="font-bold mt-2">$39.9</p>
+</div>
+
+</div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-[#f0dedd] py-10 mt-10">
+<div class="max-w-[1300px] mx-auto px-10 flex justify-between items-center">
+
+<div class="flex gap-14 text-sm">
+
+<div class="flex items-start gap-3">
+<i class="fa-solid fa-location-dot mt-1"></i>
+<div>
+<p class="font-semibold">LOCATION</p>
+<span class="text-gray-600">Indonesia Store</span>
+</div>
+</div>
+
+<div class="flex items-start gap-3">
+<i class="fa-solid fa-envelope mt-1"></i>
+<div>
+<p class="font-semibold">EMAIL</p>
+<span class="text-gray-600">beauty@email.com</span>
+</div>
+</div>
+
+<div class="flex items-start gap-3">
+<i class="fa-solid fa-phone mt-1"></i>
+<div>
+<p class="font-semibold">CALL</p>
+<span class="text-gray-600">08123456789</span>
+</div>
+</div>
+
+</div>
+
+<div class="flex gap-4 text-xl">
+<i class="fab fa-facebook-f"></i>
+<i class="fab fa-instagram"></i>
+<i class="fab fa-twitter"></i>
+<i class="fab fa-pinterest-p"></i>
+</div>
+
+</div>
+</footer>
+
+<script>
+window.addEventListener("scroll", function(){
+const header = document.getElementById("headerWrap");
+
+if(window.scrollY > 80){
+header.classList.add("scrolled");
+}else{
+header.classList.remove("scrolled");
+}
+});
+</script>
+
+</body>
+</html>
